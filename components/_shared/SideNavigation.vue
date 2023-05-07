@@ -278,6 +278,14 @@ export default Vue.extend({
           slug: 'covid19-info',
         },
         {
+          svg: 'SupportIcon',
+          title: this.$t(
+            '新型コロナウイルス感染症の５類感染症移行後の対応について'
+          ),
+          link: 'https://www.mhlw.go.jp/stf/corona5rui.html',
+          slug: 'covid19-info',
+        },
+        {
           svg: 'MaskTrashIcon',
           title: this.$t('ご家庭でのマスク等の捨て方'),
           link: 'https://www.kankyo.metro.tokyo.lg.jp/resource/500200a20200221162304660.files/200327_chirashi.pdf',
